@@ -10,3 +10,17 @@ git config user.email (email@gmail.com)
 git config user.password (token)
 git remote add origin (url del repo)
 
+
+-MODIFICAR UN REPO LOCAL Y SUBIR ESA MODIFICACION AL REPO REMOTO
+
+PARA AÑADIR TODOS LOS ARCHIVOS MODIFICADOS UTILIZAMOS:
+git add . 
+
+O PODEMOS UTILIZAR
+git add (nombredelarchivo)
+
+CONFIRMAMOS QUE QUEREMOS INCLUIR ESTOS CAMBIOS QUE LUEGO SERAN SUBIDOS AL REPO REMOTO
+git commit -m "(descripciondelcambiorealizado)"
+
+ACTUALIZAMOS EL REPO REMOTO LLAMADO ORIGIN, ACTUALIZAMOS LA RAMA MASTER CON EL COMMIT CORRESPONDIENTE
+git push -u origin master

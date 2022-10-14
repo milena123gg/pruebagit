@@ -1,0 +1,12 @@
+(recorda reemplazar lo que este entre parentesis)
+
+-CREAR UN REPO REMOTO Y LOCAL Y ENLAZARLOS 
+
+DENTRO DE LA CARPETA EN LA QUE ESTA MI PROYECTO VAMOS A ABRIR LA TERMINAL DE GIT Y VAMOS A ESCRIBIR LOS SIGUIENTES COMANDOS:
+
+git init  
+git config user.name (usuariodegithub)
+git config user.email (email@gmail.com)
+git config user.password (token)
+git remote add origin (url del repo)
+
